@@ -46,9 +46,9 @@ hr {
 }
 
 .link-secondary {
-    color: var(--dark-gray);
+    color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--yellow);
+    border: 1px solid var(--secondary-color);
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
@@ -87,6 +87,12 @@ hr {
      font-weight: bolder;
 }
 
+.img-hero {
+    max-width: 90%;
+    width: 360px;
+    display:block;
+    margin: auto;
+}
 .hero {
     padding: 2rem;
     padding-top: 5rem;
