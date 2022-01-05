@@ -1,86 +1,157 @@
-.root {
-    color: red;
-    
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,300&display=swap');
+
+:root {
+    --primary-color: #ef4444;
+    --secondary-color: #facc15;
+    --tertiary-color: #f97316 ;
 }
 
-
-*
-{
+body {
+    font-family: 'Roboto';
     margin: 0px;
-    padding: 0rem;
-}
-.nav-item 
-{
-    min-height: 10%;
-    background-color:yellow;
-    padding: 2rem;
-    height:10vh;
-    
 }
 
-.menu img {
-    width: 150px;
+hr {
+    margin: 2rem 0rem;
 }
 
-.nav-link {
-    color:whitesmoke
-}
-.nav-item :hover {
-    color: red
+.margin-md {
+    margin: 2rem;
+
 }
 
 .container {
     padding: 0rem 1rem;
-    max-width: fit-content;
-}
-
-
-.info {
-    margin: 24% auto;
-}
-
-.info h1 {
-    font-size: 30px;
-}
-
-.info a {
-
-    width: 135px;
-    color:red !important;
-    text-decoration: none !important;
-    padding: 15px 25px;
-    margin: 5% 10px;
-    background: #ff9800;
-    display: inline-block;
-}
-
-.info .second-btn {
-    border: 1px solid #ff9800 !important;
-    background: transparent !important;
-    color: #555 !important;
-    transition: 0.5s;
 
 }
 
-.info .second-btn:hover {
-    background:  #ff9800 !important;
-    color: #555 !important;
-
+.container-center {
+    max-width: 600px;
+    margin: auto;
 }
 
-.footer-widget {
-    min-height: 15%;
-    background-image: -moz-linear-gradient(to right, #ff9800, #a46406);
-    padding: 21px 0;
-    display: inline-flex;
-    color:red
-}
- 
-.footer-text {
-    padding-left: 25px;
+.link {
+    box-sizing: border-box;
+    text-decoration: red;
+    padding: 0.5rem 1rem;
 }
 
-.footer-widget .fa {
-    font-size: 25px;
-
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 }
+
+.link-secondary {
+    color: var(--dark-gray);
+    border-radius: 0.5rem;
+    border: 1px solid var(--yellow);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.list-non-bullet{
+     list-style: radial-gradient(red);
+     padding-inline-start: 0px;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-link {
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+     font-weight: bolder;
+}
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+       color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section red {
+    text-align: center;
+}
+
+.section yellow {
+    text-align: center;
+}
+
+.red {
+    background-color: yellow;
+}
+
+.footer{
+    background-color: red;
+    padding: 4rem 1rem;
+    text-align: center;
+    color:red;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color:white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.showcase-swiggy {
+    padding: 2rem;
+}
+
+.showcase-zomato {
+    padding-bottom: 6rem;
+}
+
+
