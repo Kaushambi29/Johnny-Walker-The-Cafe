@@ -87,6 +87,12 @@ hr {
      font-weight: bolder;
 }
 
+
+.img-box {
+   margin: 150px auuto;
+   text-align: center;
+}
+
 .img-hero {
     max-width: 90%;
     width: 360px;
@@ -97,6 +103,7 @@ hr {
     padding: 2rem;
     padding-top: 5rem;
 }
+
 
 .hero .hero-img {
     max-width: 80%;
